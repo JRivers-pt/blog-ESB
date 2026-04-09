@@ -9,38 +9,16 @@ document.addEventListener('DOMContentLoaded', () => {
   if (divisoesContainer) {
     let html = '';
     divisionsData.forEach((divisao, index) => {
-      const isReverse = index % 2 !== 0 ? 'divisao-article--reverse' : '';
-      
-      const textSide = `
-        <div class="divisao-text-side">
-          <span class="tag ${divisao.tag}">${divisao.title}</span>
-          <h3>${divisao.subtitle}</h3>
-          <p>${divisao.description}</p>
-          <ul class="spec-list">
-            ${divisao.specs.map(s => `
-              <li>
-                <span class="spec-value">${s.value}</span>
-                <span class="spec-label">${s.label}</span>
-              </li>
-            `).join('')}
-          </ul>
-          <p class="design-note">💡 <em>${divisao.note}</em></p>
-        </div>
-      `;
-
-      const imageSide = `
-        <div class="divisao-image-side">
-          <div class="divisao-img-stack">
-            <img src="${divisao.images.main}" alt="${divisao.title}" class="divisao-img-main" loading="lazy" />
-            <img src="${divisao.images.detail}" alt="Detalhe ${divisao.title}" class="divisao-img-secondary" loading="lazy" />
+      // Usamos apenas a imagem principal para o portfolio grid
+      html += `
+        <div class="portfolio-card" data-reveal style="transition-delay: ${index * 0.1}s">
+          <img src="${divisao.images.main}" alt="${divisao.title}" loading="lazy" />
+          <div class="portfolio-overlay">
+            <span class="portfolio-tag">${divisao.title}</span>
+            <h3 class="portfolio-title">${divisao.subtitle}</h3>
+            <p class="portfolio-desc">${divisao.description}</p>
           </div>
         </div>
-      `;
-
-      html += `
-        <article class="divisao-article ${isReverse}" id="${divisao.id}" data-reveal>
-          ${index % 2 === 0 ? imageSide + textSide : textSide + imageSide}
-        </article>
       `;
     });
     divisoesContainer.innerHTML = html;

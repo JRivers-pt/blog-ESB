@@ -5,8 +5,8 @@
     "subtitle": "O santuário pessoal",
     "tag": "tag-terracotta",
     "images": {
-      "main": "/images/image_e3383a13-f34b-46c8-9c70-4065513c647a.png",
-      "detail": "/images/image_63c4fde0-9a65-48f9-a2a7-e6ae6f8fb472.png"
+      "main": "./images/image_e3383a13-f34b-46c8-9c70-4065513c647a.png",
+      "detail": "./images/image_63c4fde0-9a65-48f9-a2a7-e6ae6f8fb472.png"
     },
     "description": "O quarto deve ser um refúgio de conforto e liberdade. O design inclusivo garante que a independência no espaço mais íntimo da casa é absoluta.",
     "specs": [
@@ -22,8 +22,8 @@
     "subtitle": "Conforto sem compromissos",
     "tag": "tag-petroleo",
     "images": {
-      "main": "/images/image_d7ff1b71-2493-4e6c-94da-11256a98cc1e.png",
-      "detail": "/images/image_f3835d66-dfcc-456e-8f9c-2edab6835f63.png"
+      "main": "./images/image_d7ff1b71-2493-4e6c-94da-11256a98cc1e.png",
+      "detail": "./images/image_f3835d66-dfcc-456e-8f9c-2edab6835f63.png"
     },
     "description": "A casa de banho inclusiva combina normas de segurança e acessibilidade com os acabamentos mais sofisticados. Duche de acesso livre com banco integrado, torneiras termostáticas e zonas amplas de manobra.",
     "specs": [
@@ -39,8 +39,8 @@
     "subtitle": "Espaço de partilha",
     "tag": "tag-olive",
     "images": {
-      "main": "/images/A Sala Confraternizar.png",
-      "detail": "/images/image_535ef8a5-dd86-4307-8c66-ef803dd6c22d.png"
+      "main": "./images/a-sala-confraternizar.png",
+      "detail": "./images/image_535ef8a5-dd86-4307-8c66-ef803dd6c22d.png"
     },
     "description": "A sala é o coração da casa — o lugar da convivência e da identidade. Um layout sem barreiras garante que todos circulam com liberdade e conforto, sem que o design seja sacrificado.",
     "specs": [
@@ -56,8 +56,8 @@
     "subtitle": "Autonomia total",
     "tag": "tag-terracotta",
     "images": {
-      "main": "/images/image_c020ee79-c5c4-4e83-b5d5-f8ebd0b66154.png",
-      "detail": "/images/image_88bf2a26-8df3-42b9-bc77-23b918d035a2.png"
+      "main": "./images/image_c020ee79-c5c4-4e83-b5d5-f8ebd0b66154.png",
+      "detail": "./images/image_88bf2a26-8df3-42b9-bc77-23b918d035a2.png"
     },
     "description": "A cozinha acessível é a expressão máxima da independência. Bancadas rebaixadas, espaço livre sob a pia, eletrodomésticos ao alcance — tudo pensado para que cozinhar seja um prazer, não um desafio.",
     "specs": [

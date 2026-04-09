@@ -1,143 +1,125 @@
-<!DOCTYPE html>
-<html lang="pt-PT">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rodolfo - Serviços de Pintura Profissional</title>
-    <meta name="description" content="Serviços de pintura profissional e isolamentos nas zonas de Alenquer, Arruda dos Vinhos, Vila Franca de Xira e arredores. Transformamos o seu espaço com precisão e qualidade.">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="nav-content">
-            <div class="logo">Rodolfo<span>.Pinturas</span></div>
-            <ul class="nav-links">
-                <li><a href="#home">Início</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#areas">Áreas de Atuação</a></li>
-            </ul>
-            <a href="#contact" class="nav-cta">Contactar</a>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./images/image_63c4fde0-9a65-48f9-a2a7-e6ae6f8fb472.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Espaços Sem Barreiras - Design e Arquitetura Inclusiva de Alta Excelência." />
+    <title>Espaços Sem Barreiras | Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="studio-header" id="navbar">
+      <div class="header-container">
+        <div class="logo">
+          <span class="logo-accent">E</span>SB.
         </div>
-    </nav>
+        <button class="menu-toggle" id="nav-toggle" aria-label="Abrir menu">
+          <span class="hamburger"></span>
+        </button>
+        <nav class="nav-menu" id="nav-links">
+          <a href="#filosofia">Filosofia</a>
+          <a href="#portfolio">Projetos</a>
+          <a href="#normas">Expertise</a>
+          <a href="#contacto" class="btn-primary">Contacto</a>
+        </nav>
+      </div>
+    </header>
 
     <main>
-        <section id="home" class="hero fade-in">
-            <div class="hero-bg">
-                <img src="images/hero_bg.png" alt="Sala de estar pintada com design moderno">
-                <div class="hero-overlay"></div>
-            </div>
-            <div class="hero-content">
-                <h1 class="slide-up">Transforme o Seu Espaço</h1>
-                <p class="slide-up delay-1">Serviços de pintura interior e exterior de excelência, com rigor, qualidade superior e acabamentos perfeitos.</p>
-                <div class="hero-actions slide-up delay-2">
-                    <a href="#contact" class="btn btn-primary">Pedir Orçamento</a>
-                    <a href="#services" class="btn btn-secondary">Ver Serviços</a>
-                </div>
-            </div>
-        </section>
+      <!-- HERO -->
+      <section class="hero-fullscreen">
+        <div class="hero-bg">
+          <img src="./images/hero_inclusive_suite.png" alt="Espaço Inclusivo Premium" />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-reveal>
+          <span class="hero-subtitle">Arquitetura de Conforto</span>
+          <h1 class="hero-title">Espaços Sem <br /><em>Barreiras</em></h1>
+          <a href="#filosofia" class="scroll-down-indicator">Descobrir</a>
+        </div>
+      </section>
 
-        <section id="services" class="services-section section-padding">
-            <div class="section-header">
-                <h2>Os Nossos Serviços</h2>
-                <p>Especializamo-nos em todas as vertentes de pintura residencial e comercial.</p>
-            </div>
-            
-            <div class="services-grid">
-                <div class="service-card reveal">
-                    <div class="service-image">
-                        <img src="images/interior_painting.png" alt="Pintura Interior">
-                    </div>
-                    <div class="service-info">
-                        <h3>Pintura Interior</h3>
-                        <p>Renovação de salas, quartos, cozinhas e tetos com tintas de alta qualidade, garantindo cores vibrantes e duradouras.</p>
-                    </div>
-                </div>
+      <!-- FILOSOFIA / ABOUT -->
+      <section id="filosofia" class="philosophy-section">
+        <div class="container philosophy-grid">
+          <div class="philosophy-text" data-reveal>
+            <h2>O luxo é teres <br />tudo à mão.</h2>
+            <p>
+              Acreditamos que a verdadeira arquitetura de prestígio não compromete a independência. Os <strong>Espaços Sem Barreiras</strong> não são apenas sobre a ausência de obstáculos; é sobre a criação de ambientes fluídos, elegantes e profundamente humanos.
+            </p>
+            <p>
+              Desenhamos casas de banho e cozinhas onde o design de vanguarda e o cumprimento rigoroso do DL 163/2006 (normas de acessibilidade) coabitam em perfeita harmonia. O conforto sem esforço é a nossa assinatura.
+            </p>
+          </div>
+          <div class="philosophy-image" data-reveal>
+            <img src="./images/image_63c4fde0-9a65-48f9-a2a7-e6ae6f8fb472.png" alt="Detalhe de design inclusivo" loading="lazy" />
+          </div>
+        </div>
+      </section>
 
-                <div class="service-card reveal delay-1">
-                    <div class="service-image">
-                        <img src="images/exterior_painting.png" alt="Pintura Exterior">
-                    </div>
-                    <div class="service-info">
-                        <h3>Pintura Exterior</h3>
-                        <p>Proteção e revitalização de fachadas contra as intempéries, melhorando o aspeto e valorizando a sua propriedade.</p>
-                    </div>
-                </div>
+      <!-- PORTFOLIO / DIVISÕES -->
+      <section id="portfolio" class="portfolio-section">
+        <div class="container">
+          <div class="section-header" data-reveal>
+            <h2>O Nosso <em>Mundo</em></h2>
+            <p>Explore como transformamos cada divisão num refúgio de autonomia e estética.</p>
+          </div>
+          <div class="portfolio-grid" id="divisoes-container">
+            <!-- Injected by main.js -->
+          </div>
+        </div>
+      </section>
 
-                <div class="service-card reveal delay-2">
-                    <div class="service-image">
-                        <img src="images/im1age.png" alt="Reparações e Isolamentos" onerror="this.src='https://via.placeholder.com/600x400/181a1b/23E5DB?text=Acabamentos'">
-                    </div>
-                    <div class="service-info">
-                        <h3>Acabamentos e Reparações</h3>
-                        <p>Correção de imperfeições, tratamento de humidades e isolamentos para um resultado impecável antes da pintura.</p>
-                    </div>
-                </div>
+      <!-- EXPERTISE / NORMAS -->
+      <section id="normas" class="expertise-section">
+        <div class="container expertise-content" data-reveal>
+          <h2>Mestria <em>Técnica</em></h2>
+          <p class="expertise-lead">A beleza do nosso trabalho sustenta-se numa precisão matemática e no cumprimento integral das normas de mobilidade.</p>
+          <div class="expertise-grid">
+            <div class="expertise-item">
+              <h3>Ø 1,50 m</h3>
+              <p>Zonas de rotação perfeitas, livres de quaisquer obstáculos para manobra total.</p>
             </div>
-        </section>
+            <div class="expertise-item">
+              <h3>Nível Zero</h3>
+              <p>Eliminamos ressaltos. Um pavimento contínuo une todos os espaços da casa.</p>
+            </div>
+            <div class="expertise-item">
+              <h3>Ergonomia</h3>
+              <p>Iluminação, torneiras termostáticas e puxadores estrategicamente posicionados ao alcance.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section id="portfolio" class="portfolio-section section-padding">
-             <div class="section-header">
-                <h2>O Nosso Portfólio</h2>
-                <p>Alguns dos nossos trabalhos recentes.</p>
-            </div>
-            <div class="portfolio-grid">
-                <div class="portfolio-item reveal"><img src="images/11image.png" alt="Trabalho de pintura 1" onerror="this.src='images/interior_painting.png'"></div>
-                <div class="portfolio-item reveal delay-1"><img src="images/im1age.png" alt="Trabalho de pintura 2" onerror="this.src='images/exterior_painting.png'"></div>
-                <div class="portfolio-item reveal delay-2"><img src="images/imagej.png" alt="Trabalho de pintura 3" onerror="this.src='images/hero_bg.png'"></div>
-            </div>
-        </section>
-
-        <section id="areas" class="areas-section section-padding">
-            <div class="areas-content reveal">
-                <div class="areas-text">
-                    <h2>Áreas de Atuação</h2>
-                    <p>Atuamos principalmente num raio alargado que nos permite oferecer um serviço de proximidade e confiança a todos os nossos clientes nas seguintes zonas:</p>
-                    <ul class="areas-list">
-                        <li><span>✔</span> Alenquer</li>
-                        <li><span>✔</span> Arruda dos Vinhos</li>
-                        <li><span>✔</span> Vila Franca de Xira</li>
-                        <li><span>✔</span> Castanheira do Ribatejo e Cachoeiras</li>
-                        <li><span>✔</span> Áreas circundantes mediante consulta</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="contact-section section-padding reveal">
-            <div class="contact-container">
-                <h2>Pronto para Começar?</h2>
-                <p>Contacte-nos hoje para avaliarmos o seu projeto e enviarmos um orçamento sem compromisso.</p>
-                
-                <div class="contact-methods">
-                    <a href="https://www.olx.pt/d/anuncio/servios-de-pintura-zonas-de-alenquerarruda-dos-vinhosvila-f-xira-IDJ2lrl.html" target="_blank" class="contact-card">
-                        <div class="icon">💬</div>
-                        <h3>Anúncio OLX</h3>
-                        <p>Envie-nos uma mensagem diretamente pelo nosso anúncio para uma resposta rápida.</p>
-                    </a>
-                </div>
-            </div>
-        </section>
+      <!-- CTA / CONTACTO -->
+      <section id="contacto" class="cta-section">
+        <div class="container cta-container" data-reveal>
+          <h2>Vamos criar o seu <em>conforto</em>.</h2>
+          <p>Se procura um design residencial que eleva a sua independência, fale com a nossa equipa.</p>
+          <div class="contact-methods">
+            <a href="mailto:contacto@espacosembarreiras.com" class="contact-link">📧 contacto@espacosembarreiras.com</a>
+            <a href="tel:+351912345678" class="contact-link">📞 +351 912 345 678</a>
+          </div>
+          <button class="btn-primary btn-large">Começar Projeto</button>
+        </div>
+      </section>
     </main>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-brand">
-                <div class="logo">Rodolfo<span>.Pinturas</span></div>
-                <p>Profissionalismo, Brio e Dedicação. No OLX desde 2016.</p>
-            </div>
+    <!-- FOOTER -->
+    <footer class="studio-footer">
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <span class="logo-accent">E</span>SB.
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Rodolfo Pinturas. O seu espaço com novas cores.</p>
-        </div>
+        <p>© 2026 Espaços Sem Barreiras. Portfolio de Arquitetura Inclusiva.</p>
+      </div>
     </footer>
 
-    <script src="app.js"></script>
-</body>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

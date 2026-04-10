@@ -102,7 +102,7 @@ a {
 }
 
 .logo-img {
-  height: 90px; /* Tamanho otimizado para a marca */
+  height: 100px; /* Tamanho top para o logo transparente */
   width: auto;
   transition: var(--transition-smooth);
 }
@@ -455,10 +455,9 @@ a {
 }
 
 .logo-img-footer {
-  height: 110px;
+  height: 120px;
   width: auto;
-  filter: brightness(0) invert(1); /* Torna o logo SVG branco no fundo preto */
-  opacity: 0.6;
+  opacity: 0.8;
   transition: var(--transition-smooth);
 }
 

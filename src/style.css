@@ -102,10 +102,8 @@ a {
 }
 
 .logo-img {
-  height: 80px;
+  height: 100px;
   width: auto;
-  mix-blend-mode: multiply; /* Isto 'apaga' o fundo branco da imagem no cabeçalho */
-  filter: contrast(1.1);
   transition: var(--transition-smooth);
 }
 
@@ -457,10 +455,10 @@ a {
 }
 
 .logo-img-footer {
-  height: 100px;
+  height: 120px;
   width: auto;
-  filter: brightness(0) invert(1) contrast(200%); /* Força o logo a ser branco no fundo preto, removendo o fundo da imagem */
-  opacity: 1;
+  filter: brightness(0) invert(1); /* Torna o logo branco no fundo preto */
+  opacity: 0.8;
   transition: var(--transition-smooth);
 }
 

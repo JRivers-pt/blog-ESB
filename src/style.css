@@ -102,8 +102,10 @@ a {
 }
 
 .logo-img {
-  height: 50px;
+  height: 80px; /* Aumentado de 50px */
   width: auto;
+  mix-blend-mode: multiply; /* Remove o fundo claro no cabeçalho branco */
+  filter: contrast(1.1) brightness(1.05); /* Melhora a legibilidade */
   transition: var(--transition-smooth);
 }
 
@@ -455,14 +457,15 @@ a {
 }
 
 .logo-img-footer {
-  height: 60px;
+  height: 100px; /* Aumentado de 60px */
   width: auto;
-  filter: brightness(0) invert(1) opacity(0.5); /* Torna o logo cinza/branco suave para o rodapé escuro */
+  filter: brightness(0) invert(1) grayscale(1) contrast(200%); /* Força o logo a ser totalmente branco no fundo preto */
+  opacity: 0.7;
   transition: var(--transition-smooth);
 }
 
 .logo-img-footer:hover {
-  filter: brightness(1) invert(0) opacity(1);
+  opacity: 1;
 }
 
 /* =========================================

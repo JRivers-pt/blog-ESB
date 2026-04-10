@@ -1,0 +1,21 @@
+<svg width="400" height="150" viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ab8e66;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C5A880;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ab8e66;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Monogram CA -->
+  <text x="50%" y="80" text-anchor="middle" font-family="'Playfair Display', serif" font-size="90" font-weight="600" fill="url(#goldGradient)" style="letter-spacing: -5px;">CA</text>
+  
+  <!-- Decorative Line -->
+  <rect x="100" y="95" width="200" height="1" fill="url(#goldGradient)" />
+  
+  <!-- Brand Name -->
+  <text x="50%" y="120" text-anchor="middle" font-family="'Inter', sans-serif" font-size="16" font-weight="300" fill="url(#goldGradient)" style="letter-spacing: 6px; text-transform: uppercase;">Cristiana Azevedo</text>
+  
+  <!-- Subtitle -->
+  <text x="50%" y="140" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="500" fill="url(#goldGradient)" style="letter-spacing: 12px; text-transform: uppercase;">Design</text>
+</svg>

@@ -97,10 +97,14 @@ a {
 }
 
 .logo {
-  font-family: var(--font-serif);
-  font-size: 1.8rem;
-  font-weight: 700;
-  letter-spacing: -1px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+  transition: var(--transition-smooth);
 }
 
 .logo-accent {
@@ -447,10 +451,18 @@ a {
 }
 
 .footer-brand {
-  font-family: var(--font-serif);
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: #888;
+  margin-bottom: 2rem;
+}
+
+.logo-img-footer {
+  height: 60px;
+  width: auto;
+  filter: brightness(0) invert(1) opacity(0.5); /* Torna o logo cinza/branco suave para o rodapé escuro */
+  transition: var(--transition-smooth);
+}
+
+.logo-img-footer:hover {
+  filter: brightness(1) invert(0) opacity(1);
 }
 
 /* =========================================
